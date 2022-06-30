@@ -10,41 +10,51 @@ header {
   background-color: black;
 }
 
-.container {
-  width: 1200px;
-}
-
-.navigation_bar {
+.navigation {
+  z-index: 1;
+  position: fixed;
   width: 100%;
   background-color: black;
 }
 
-.navigation_bar .navbar-toggler {
-  color: white;
-  background-color: #00798a;
-}
-
-.navigation_bar .logo a {
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.navigation_bar a {
-  color: white;
-}
-
-.navigation_bar a:hover {
-  color: white !important;
-}
-
-.navigation_bar .navbar-collapse {
+.navigation .collapse {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
-.navigation_bar .navbar-nav {
-  gap: 10px;
+.navigation .navbar-brand {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.navigation .navbar-brand {
+  color: white;
+}
+
+.navigation .navbar-brand:hover {
+  color: white;
+}
+
+.navigation .nav-item a {
+  color: white;
+}
+
+.navigation .nav-item a:hover {
+  color: white;
+}
+
+.navigation button {
+  background-color: white;
+}
+
+.navigationbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #home {
@@ -54,7 +64,9 @@ header {
 }
 
 #home .efforts_summary {
-  padding: 70px 0px;
+  margin-top: 50px;
+  text-align: center;
+  padding: 90px 0px;
   background-color: #00798a;
 }
 
@@ -86,6 +98,7 @@ header {
 
 #our_services {
   padding: 70px 0px;
+  background-image: url("/assets/img/sativa.png");
 }
 
 #our_services h1 {
@@ -169,6 +182,7 @@ header {
 }
 
 #our_plans {
+  background-image: url("/assets/img/sativa.png");
   padding: 70px 0px;
 }
 
@@ -254,6 +268,7 @@ header {
 
 #contact {
   padding: 70px 0px;
+  background-image: url("/assets/img/sativa.png");
 }
 
 #contact h1 {
@@ -275,6 +290,7 @@ header {
 #contact .contact_us_summary_item button {
   margin: 20px 0px;
   font-size: 13px;
+  background-color: #428bca;
 }
 
 #contact .contact_us_summary_item .form-control {
