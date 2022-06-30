@@ -6,6 +6,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+header {
+  background-color: black;
+}
+
 .container {
   width: 1200px;
 }
@@ -13,11 +17,16 @@
 .navigation_bar {
   width: 100%;
   background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+}
+
+.navigation_bar .navbar-toggler {
+  color: white;
+  background-color: #00798a;
+}
+
+.navigation_bar .logo a {
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .navigation_bar a {
@@ -25,7 +34,17 @@
 }
 
 .navigation_bar a:hover {
-  color: white;
+  color: white !important;
+}
+
+.navigation_bar .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navigation_bar .navbar-nav {
+  gap: 10px;
 }
 
 #home {
@@ -36,6 +55,7 @@
 
 #home .efforts_summary {
   padding: 70px 0px;
+  background-color: #00798a;
 }
 
 #home .efforts_summary h1 {
@@ -89,6 +109,7 @@
 }
 
 #our_services .our_services_items .our_services_item {
+  margin: 10px 0px;
   text-align: center;
   padding: 40px 10px;
   background-color: #00798a;
@@ -129,8 +150,11 @@
 #reports {
   background-color: #00798a;
   color: white;
-  padding: 30px 0px;
   text-align: center;
+}
+
+#reports .row {
+  background-color: #00798a;
 }
 
 #reports h1 {
@@ -169,6 +193,7 @@
 }
 
 #our_plans .our_plans_items .our_plans_item {
+  margin: 10px 0px;
   background-color: #d8d8d8;
   text-align: center;
 }
@@ -209,8 +234,11 @@
 #features {
   background-color: #00798a;
   color: white;
-  padding: 30px 0px;
   text-align: center;
+}
+
+#features .row {
+  background-color: #00798a;
 }
 
 #features h1 {
