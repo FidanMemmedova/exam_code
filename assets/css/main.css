@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: black;
+}
+
+.navigation {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+
+.navigation .collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navigation .navbar-brand {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.navigation .navbar-brand {
+  color: white;
+}
+
+.navigation .navbar-brand:hover {
+  color: white;
+}
+
+.navigation .nav-item a {
+  color: white;
+}
+
+.navigation .nav-item a:hover {
+  color: white;
+}
+
+.navigation button {
+  background-color: white;
+}
+
+.navigationbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#home {
+  background-color: #00798a;
+  color: white;
+  text-align: center;
+}
+
+#home .efforts_summary {
+  margin-top: 50px;
+  text-align: center;
+  padding: 90px 0px;
+  background-color: #00798a;
+}
+
+#home .efforts_summary h1 {
+  font-size: 90px;
+}
+
+#home .efforts_summary h3 {
+  font-size: 45px;
+  padding: 20px 0px;
+}
+
+#home .efforts_summary p {
+  padding: 20px 0px;
+  font-size: 20px;
+}
+
+#home .efforts_summary button {
+  background-color: #fc4065;
+  margin-bottom: 30px;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+}
+
+#home .efforts_summary button:hover {
+  background-color: red;
+}
+
+#our_services {
+  padding: 70px 0px;
+  background-image: url("/assets/img/sativa.png");
+}
+
+#our_services h1 {
+  color: #00798a;
+  font-weight: 500;
+  padding: 20px 0px;
+}
+
+#our_services .our_services_summary_item h5 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#our_services .our_services_summary_item p {
+  font-size: 15px;
+  padding: 20px 0px;
+}
+
+#our_services .our_services_items {
+  padding: 30px 0px;
+}
+
+#our_services .our_services_items .our_services_item {
+  margin: 10px 0px;
+  text-align: center;
+  padding: 40px 10px;
+  background-color: #00798a;
+  color: white;
+}
+
+#our_services .our_services_items .our_services_item img {
+  width: 100px;
+  height: 100px;
+}
+
+#our_services .our_services_items .our_services_item h4 {
+  padding: 40px 0px 10px 0px;
+  font-weight: 600;
+}
+
+#our_services .our_services_items .our_services_item h6 {
+  font-weight: 400;
+  padding: 10px;
+  letter-spacing: 0.01em;
+  line-height: 1.5em;
+}
+
+#our_services .our_services_text {
+  padding: 30px 0px;
+}
+
+#our_services .our_services_text h5 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#our_services .our_services_text p {
+  font-size: 15px;
+  padding: 10px 0px;
+}
+
+#reports {
+  background-color: #00798a;
+  color: white;
+  text-align: center;
+}
+
+#reports .row {
+  background-color: #00798a;
+}
+
+#reports h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#reports p {
+  padding: 20px 0px 0px 0px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#our_plans {
+  background-image: url("/assets/img/sativa.png");
+  padding: 70px 0px;
+}
+
+#our_plans h1 {
+  color: #00798a;
+  font-weight: 500;
+  padding: 20px 0px;
+}
+
+#our_plans .our_plans_summary_item h5 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#our_plans .our_plans_summary_item p {
+  font-size: 15px;
+  padding: 20px 0px;
+}
+
+#our_plans .our_plans_items {
+  padding: 50px 0px;
+}
+
+#our_plans .our_plans_items .our_plans_item {
+  margin: 10px 0px;
+  background-color: #d8d8d8;
+  text-align: center;
+}
+
+#our_plans .our_plans_items .our_plans_item h3 {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 0px;
+  font-weight: 600;
+}
+
+#our_plans .our_plans_items .our_plans_item ul {
+  list-style: none;
+  padding: 0;
+}
+
+#our_plans .our_plans_items .our_plans_item ul li {
+  color: #85858a;
+  font-size: 28px;
+  padding: 15px 0px;
+}
+
+#our_plans .our_plans_items .our_plans_item h2 {
+  background-color: #1f8a63;
+  color: white;
+  font-size: 50px;
+  padding: 20px 0px;
+}
+
+#our_plans .our_plans_items .our_plans_item button {
+  border-radius: 0;
+  width: 100%;
+  padding: 5px 0px;
+  margin: 10px 0px 30px 0px;
+}
+
+#features {
+  background-color: #00798a;
+  color: white;
+  text-align: center;
+}
+
+#features .row {
+  background-color: #00798a;
+}
+
+#features h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#features p {
+  padding: 20px 0px 0px 0px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#contact {
+  padding: 70px 0px;
+  background-image: url("/assets/img/sativa.png");
+}
+
+#contact h1 {
+  color: #00798a;
+  font-weight: 500;
+  padding: 20px 0px;
+}
+
+#contact .contact_us_summary_item h5 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#contact .contact_us_summary_item p {
+  font-size: 15px;
+  padding: 20px 0px;
+}
+
+#contact .contact_us_summary_item button {
+  margin: 20px 0px;
+  font-size: 13px;
+  background-color: #428bca;
+}
+
+#contact .contact_us_summary_item .form-control {
+  width: 100%;
+}
+
+#contact .contact_us_summary_item .form-group {
+  width: 260px;
+}
+
+#contact .contact_us_summary_item .contact_us_info {
+  font-size: 12px;
+  padding-top: 25px;
+}
+
+#contact .contact_us_summary_item .contact_us_info p {
+  padding: 0;
+  margin: 0;
+}
+
+.info {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px 40px 0px 0px;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=main.css.map */
